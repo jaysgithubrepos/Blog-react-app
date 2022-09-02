@@ -15,14 +15,16 @@ background:url("../../Assets/pexels-stephan-seeber-1054218.jpg");
     
     
 }
-.headertitle{
+.loginheadertitle
+{
     
     color:whitesmoke;
     text-align: center;
     padding:40px;
 
 }
-.headertitle span{
+.loginheadertitle
+ span{
     font-size:40px;
     
     
