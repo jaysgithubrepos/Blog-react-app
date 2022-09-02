@@ -1,0 +1,90 @@
+
+.div-container{
+
+    
+background:url("../../Assets/pexels-stephan-seeber-1054218.jpg");
+   display: flex;
+    height:100vh;
+   background-size: cover;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   font-family:Poppins;
+   
+   
+    
+    
+}
+.headertitle{
+    
+    color:whitesmoke;
+    text-align: center;
+    padding:40px;
+
+}
+.headertitle span{
+    font-size:40px;
+    
+    
+}
+.login-container{
+    
+    padding:40px;
+    width: 30%;
+    
+    
+    border:1px solid whitesmoke;
+    border-radius: 10px;
+    background: whitesmoke;
+   
+}
+form div{
+    margin-bottom:20px;
+}
+.email-div label{
+    display: flex;
+    font-size:15px;
+    padding:10px 0;
+}
+.email-div input{
+    display: flex;
+    font-size:15px;
+    padding:10px 10px;
+    width:100%;
+}
+
+.password-div label{
+    display: flex;
+    font-size:15px;
+    padding:10px 0;
+}
+.password-div input{
+    display: flex;
+    font-size:15px;
+    padding:10px 10px;
+    width:100%;
+}
+.button-div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button-button-div{
+    margin:40px 40px;
+    width:80%;
+    padding:10px;
+    background-color: rgb(98, 173, 23);
+    border:1px solid rgb(98, 173, 23);
+    border-radius:5px;
+    color:whitesmoke;
+
+
+}
+.link-div {
+  display: flex;
+    
+    justify-content: space-between;
+}
+.link-div span{font-size:15px;}
