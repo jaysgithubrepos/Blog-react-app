@@ -2,7 +2,7 @@ import "./signup.css";
 
 function signup() {
   return (
-    <div className='div-container'>
+    <div className='signup-div-container'>
         <div className="signuptitle"><span>Signup Page</span></div>
         <div className='login-container'>
             

@@ -3,7 +3,7 @@ import "./login.css";
 function login() {
   return (
     <div className='div-container'>
-        <div className="headertitle"><span>Good to See you again</span></div>
+        <div className="loginheadertitle"><span>Good to See you again</span></div>
         <div className='login-container'>
             
             <form>
