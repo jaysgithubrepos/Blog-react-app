@@ -3,6 +3,7 @@ import "./login.css";
 function login() {
   return (
     <div className='div-container'>
+        <div className="note"><h3>For Looking into write page there is const value define for user as true in app.js and topbar.js change the const value to true.</h3></div>
         <div className="loginheadertitle"><span>Good to See you again</span></div>
         <div className='login-container'>
             
