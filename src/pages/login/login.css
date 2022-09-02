@@ -43,29 +43,20 @@ background:url("../../Assets/pexels-stephan-seeber-1054218.jpg");
 form div{
     margin-bottom:20px;
 }
-.email-div label{
-    display: flex;
-    font-size:15px;
-    padding:10px 0;
-}
-.email-div input{
+
+div input{
     display: flex;
     font-size:15px;
     padding:10px 10px;
-    width:100%;
+    width:95%;
 }
 
-.password-div label{
+div label{
     display: flex;
     font-size:15px;
     padding:10px 0;
 }
-.password-div input{
-    display: flex;
-    font-size:15px;
-    padding:10px 10px;
-    width:100%;
-}
+
 .button-div{
     
     display: flex;
