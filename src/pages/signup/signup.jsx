@@ -3,7 +3,7 @@ import "./signup.css";
 function signup() {
   return (
     <div className='div-container'>
-        <div className="headertitle"><span>Signup Page</span></div>
+        <div className="signuptitle"><span>Signup Page</span></div>
         <div className='login-container'>
             
             <form>

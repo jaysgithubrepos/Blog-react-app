@@ -3,7 +3,7 @@
 }
 .sinlepost-wrapper{
    padding:20px;
-   padding-right: 0;}
+   }
 .single-post-image{
     width:100%;
     height:350px;
@@ -45,7 +45,7 @@ color:darkcyan;
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  text-align: justify;
+  text-align: justify   ;
  
     
 }

@@ -14,6 +14,7 @@ import Singlepost from "./pages/SinglePost/singlepost.jsx";
 
 
 function App() {
+  const user=false;
   return (
     
       <Router>
@@ -21,11 +22,11 @@ function App() {
       
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/settings" element={<Settings />} />
-      <Route path="/register" element={<Register />} />
+      <Route path="/login" element={user ?<Home/>:<Login/>}  />
+      <Route path="/settings" element={user ?<Settings/>:<Register/>} />
+      <Route path="/register" element={user ?<Home/>:<Register/>} />
       <Route path="/single-post" element={<Singlepost/>} />
-      <Route path="/write" element={<Write />} />
+      <Route path="/write" element={user ?<Write/>:<Register/>} />
       <Route path="/post" element={<Post />} />
       
      
